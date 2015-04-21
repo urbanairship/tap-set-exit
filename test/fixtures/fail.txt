@@ -1,0 +1,27 @@
+TAP version 13
+# setup /tests/i-am-terrible.js
+# returns a stream
+not ok 1 (unnamed assert)
+  ---
+    operator: fail
+    at: Test.assert (node_modules/tape/lib/test.js:207:0)
+  ...
+ok 2 should not throw
+# creates a table successfully
+ok 3 should be equal
+# inserts into the dom
+ok 4 should be equal
+# updates items successfully
+ok 5 should be equal
+# emits operations events, delete
+ok 6 should be equal
+ok 7 should be equal
+# accepts ractive options
+ok 8 should be equal
+# teardown /tests/i-am-terrible.js
+
+1..8
+# tests 8
+# pass  7
+# fail  1
+
