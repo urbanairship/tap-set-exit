@@ -1,0 +1,28 @@
+{
+  "name": "tap-set-exit",
+  "version": "1.0.0",
+  "description": "Sets the exit code appropriately, given some tap output.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "bin": {
+    "tap-set-exit": "./tap-set-exit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:urbanairship/tap-set-exit.git"
+  },
+  "keywords": [
+    "tap",
+    "test"
+  ],
+  "author": "Urban Airship",
+  "license": "APACHE-V2",
+  "dependencies": {
+    "tap-parser": "^1.0.4"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
