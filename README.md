@@ -2,6 +2,9 @@
 
 Sets the correct exit code based on tap output.
 
+[![Build Status](http://img.shields.io/travis/urbanairship/tap-set-exit/master.svg?style=flat)](https://travis-ci.org/urbanairship/tap-set-exit)
+[![npm install](http://img.shields.io/npm/dm/tap-set-exit.svg?style=flat)](https://www.npmjs.org/package/tap-set-exit)
+
 ## Usage
 
 Exposes a CLI tool `tap-set-exit`, which can be used as follows:
