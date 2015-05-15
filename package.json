@@ -18,7 +18,7 @@
     "test"
   ],
   "author": "Urban Airship",
-  "license": "APACHE-V2",
+  "license": "Apache-2.0",
   "dependencies": {
     "tap-parser": "^1.0.4"
   },
